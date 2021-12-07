@@ -38,7 +38,7 @@ const Header = propse => {
               <button class="dropbtn">Dropdown</button>
               <div class="dropdown-content">
              <button onClick={() => SortC()}>sort by char</button>
-             <button onClick={() => SortC()}>sort by num</button>
+             <button onClick={() => Sortn()}>sort by num</button>
   </div>
 </div>
           </div>
