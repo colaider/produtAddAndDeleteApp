@@ -19,7 +19,7 @@ const[show3, setShow3] = useState(false)
             <h1 className="leftPad"s>{arr[i].name}</h1>
             <img className="leftPad" src={arr[i].url}></img>
             <h6 className="leftPad">{arr[i].description}</h6>
-            <h1 className="leftPad">{arr[i].price = "$"}</h1>
+            <h1 className="leftPad">{arr[i].price + "$"}</h1>
             <button className="changeButton" onClick={()=>changeInfo()}>chnge</button> 
         </div>  
     );   
