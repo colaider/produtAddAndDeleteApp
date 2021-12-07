@@ -10,7 +10,6 @@ function SortC(){
         if (a.name < b.name) {
           return -1;
         }
-        // a должно быть равным b
         return 0;
       });
       localStorage.setItem("arr", JSON.stringify(arr));
@@ -24,7 +23,6 @@ function SortN(){
       if (a.price < b.price) {
         return -1;
       }
-      // a должно быть равным b
       return 0;
     });
     localStorage.setItem("arr", JSON.stringify(arr));
