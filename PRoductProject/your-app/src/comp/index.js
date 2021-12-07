@@ -5,6 +5,17 @@ import { useSelector } from 'react-redux';
 var arr = JSON.parse(localStorage.getItem("arr"))
 var ine = -5;
 var inr  = 0;
+if (arr == null){
+   arr= [{
+     name:"name",
+     url:"url",
+     description:"description",
+     price:"price",
+     i:inr
+  }]
+  localStorage.setItem("arr", JSON.stringify(arr));
+  console.log(arr);
+}
 arr.forEach(el => {
    el.i = inr;
    inr++ 
